@@ -1,0 +1,6 @@
+Model,Protocol,RMSLE,MAE,RMSE,R2
+XGBoost (Day-Ahead Rolling Lags),24h Shifted Lags (Rolling Update),0.4004,34.367,56.741,0.9018
+LightGBM (Pure Calendar & Weather),Zero Target Lags (Multi-Step Horizon),0.405,32.332,54.55,0.9093
+LightGBM (Day-Ahead Rolling Lags),24h Shifted Lags (Rolling Update),0.4053,34.795,57.664,0.8986
+XGBoost (Pure Calendar & Weather),Zero Target Lags (Multi-Step Horizon),0.4095,32.69,54.905,0.9081
+Historical Hourly Average Baseline,Zero Lags (Lookup),0.5894,64.176,97.246,0.7116

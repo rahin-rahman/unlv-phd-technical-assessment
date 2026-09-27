@@ -1,0 +1,31 @@
+# Python Byte Code & Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# IDE & Editor Configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Large Datasets & Binary Checkpoints (Preserved Locally)
+data/
+outputs/models/
+outputs_before_local_training/
+scratch/
+*.pth
+*.pt
+*.ckpt
+
+# Log Files & Temporary Data
+*.log
+tmp/
+*.tmp

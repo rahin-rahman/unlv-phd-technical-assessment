@@ -1,0 +1,6 @@
+City / Region,Tile ID,Image Shape,Mask Shape,Unique Mask Values,Building Coverage (%)
+Austin,austin1,"(5000, 5000, 3)","(5000, 5000)","[np.uint8(0), np.uint8(255)]",14.76
+Chicago,chicago1,"(5000, 5000, 3)","(5000, 5000)","[np.uint8(0), np.uint8(255)]",14.36
+Kitsap,kitsap1,"(5000, 5000, 3)","(5000, 5000)","[np.uint8(0), np.uint8(255)]",0.2
+Tyrol-w,tyrol-w1,"(5000, 5000, 3)","(5000, 5000)","[np.uint8(0), np.uint8(255)]",6.98
+Vienna,vienna1,"(5000, 5000, 3)","(5000, 5000)","[np.uint8(0), np.uint8(255)]",18.04

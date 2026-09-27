@@ -1,0 +1,4 @@
+Model,Target Scale,Raw Log-Likelihood,Raw AIC,Jacobian Adjusted AIC,R2 / Pseudo R2,Diagnostic Finding
+Standard OLS,cnt (Raw Count),-112145.31,224316.62,224316.62,0.2834,Heteroscedastic (BP p=1.28e-182); Non-Gaussian (JB p=0.00e+00)
+Log-Transformed OLS,log1p(cnt),-27719.91,55465.82,214474.59,0.2925,Jacobian-adjusted AIC lower than OLS; guarantees y > 0
+Negative Binomial GLM,cnt (Count),-158748.1,317522.2,317522.2,0.0032,Overdispersed (Var/Mean ratio = 173.66)
